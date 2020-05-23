@@ -24,7 +24,7 @@
 			color: #222;
 		}
 
-		.reveal .progress{
+		.reveal .progress {
 			height: 6px !important;
 		}
 	</style>
@@ -33,12 +33,14 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
-			<section data-background-opacity="0.1" data-background-image=".\images\how-to-improve-learning-transfer-and-retention.png">
+			<section data-background-opacity="0.1"
+				data-background-image=".\images\how-to-improve-learning-transfer-and-retention.png">
 				<div style="text-align: left; ">
-					<p class="fragment" style=" font-weight: 500;font-size: 120%;">
+					<p style=" font-weight: 500;font-size: 120%;">
 						SAP Community
 					</p>
-					<p  class="fragment" style="font-weight: 100;margin-left: 5px; font-size: 90%;">- as your Learning Strategy</p>
+					<p style="font-weight: 100;margin-left: 5px; font-size: 90%;">- as your Learning
+						Strategy</p>
 				</div>
 			</section>
 			<section>
@@ -73,6 +75,13 @@
 					<div style="width: 100%; float:left;">
 						<h4>Live Streaming</h4>
 					</div>
+					<aside class="notes">
+						https://www.youtube.com/user/qmacro99
+						https://www.youtube.com/user/ThomasJung1
+						https://www.youtube.com/channel/UCmGdtTTsVzqTY88N1ncUE_g
+						https://anchor.fm/josh-bentley/
+						https://www.youtube.com/channel/UCW8OSu54ONLbsdV30tB3sKQ
+					</aside>
 				</section>
 
 				<section data-auto-animate>
@@ -109,6 +118,12 @@
 			<section>
 				<section data-auto-animate>
 					<h4>Open SAP Courses</h4>
+
+					<aside class="notes">
+						https://open.sap.com/courses/cp7
+						https://open.sap.com/courses/fiori3
+						https://open.sap.com/courses/rpa2-1
+					</aside>
 				</section>
 				<section data-auto-animate>
 					<h4>Open SAP Courses</h4>
@@ -129,6 +144,10 @@
 			<section>
 				<h4>SAP Developer Tutorials</h4>
 				<img class="fragment" data-src="./images/SAP Developers Tutorials.png" />
+
+				<aside class="notes">
+					https://developers.sap.com/tutorial-navigator.html
+				</aside>
 			</section>
 
 			<section>
@@ -150,6 +169,11 @@
 				<div style="width: 50%; float:right" class="fragment" data-fragment-index="2">
 					<img data-src="./images/SAPCP.PNG" />
 				</div>
+
+				<aside class="notes">
+					https://blogs.sap.com/2019/09/28/its-trialtime-for-abap-in-sap-cloud-platform/
+					https://cockpit.hanatrial.ondemand.com/cockpit
+				</aside>
 			</section>
 
 
@@ -174,6 +198,9 @@
 						<img class="fragment fade-up" data-fragment-index="4" src="./images/Coffee Corner.PNG" />
 					</div>
 				</div>
+				<aside class="notes">
+					https://community.sap.com/
+				</aside>
 			</section>
 
 			<section>
@@ -193,6 +220,12 @@
 						<img class="fragment fade-up" data-fragment-index="3" src="./images/NLGeeks.jfif" />
 					</div>
 				</div>
+
+				<aside class="notes">
+					https://abapweekly.info/
+					https://twitter.com/nabheet/status/1259120343039369217?s=20
+					(https://docs.google.com/forms/d/e/1FAIpQLSeUl-9D5w1lEy8XwfvieB6E--R4ouDDD8a5KGNxS066nVeefA/viewform)
+				</aside>
 			</section>
 
 			<section>
@@ -217,6 +250,11 @@
 							<img class="fragment fade-up" data-fragment-index="4" src="./images/SAP Inside Track.jpg" />
 						</div>
 					</div>
+
+					<aside class="notes">
+						https://community.sap.com/events
+						https://wiki.scn.sap.com/wiki/display/events/SAP+Inside+Track
+					</aside>
 				</section>
 				<section data-auto-animate>
 					<p>Get ready for SAP Online track</p>
@@ -255,6 +293,8 @@
 		Reveal.initialize({
 			hash: true,
 			height: '100%',
+			controlsTutorial: true,
+			navigationMode: 'linear',
 			minScale: 0.2,
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
